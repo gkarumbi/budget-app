@@ -11,7 +11,11 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <!-- font awesome -->
-    <link rel="stylesheet" type="text/css" href="./css/all.css">
+    <!-- <link rel="stylesheet"  href="./css/all.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    
+
 
 </head>
 <body>
@@ -35,11 +39,44 @@
                             <button type="submit" class="btn text-capitalize budget-submit" id="budget-submit">calculate</button>
                         </form>
 
+
+                    </div>
+
+                    <div class="col-md-7">
+                        <!-- app-info -->
+                        <div class="row my-3">
+                            <div class="col-4 text-center mb-2">
+                                <h6 class="text-uppercase info-title">budget</h6>
+                                <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
+                                <h4 class="text-uppercase mt-2 budget" id="budget"><span>$</span><span id="budget-amount">0</span></h4>
+
+                            </div>
+                            <div class="col-4 text-center">
+                                <h6 class="text-uppercase info-title">expenses</h6>
+                                <span class="expense-icon"><i class="far fa-credit-card"></i></span>
+                                <h4 class="text-uppercase mt-2 expense"><span>$</span><span id="expense-amount">0</span></h4>
+                            </div>
+
+                            <div class="col-4 text-center">
+                                <h6 class="text-uppercase info-title">balance</h6>
+                                <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
+                                <h4 class="text-uppercase mt-2 balance"><span>$</span><span id="balance-amount">0</span></h4>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
 
+                
+
+
             </div>
         </div>
+        <div class="row">
+                    
+        </div>
+        
     </div>
     
 </body>
